@@ -49,14 +49,24 @@ const RegterOpskrif = styled.h1`
   margin-bottom: 1rem;
 `;
 
+const Prent = styled.img`
+  width: 50%;
+  border-radius: 55%;
+  margin: 1rem 25%;
+`;
+
 const description =
-  "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi voluptas molestias. Ipsam delectus exercitationem impedit labore doloribus. Voluptates, suscipit inventore! Laborum incidunt debitis nesciunt, delectus saepe accusantium molestiae ipsam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, sapiente voluptatum ullam ad temporibus dicta nam! Eos illo laboriosam, quam odit cumque accusamus error aperiam dolor voluptates amet doloribus. Asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi tempore doloribus, sed voluptas dolorem veritatis magni, illum quidem fugit, officia illo in suscipit sint reiciendis sapiente cum possimus ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores fugit sapiente autem eius cum saepe aliquid perspiciatis, minus quam quidem non nostrum molestiae nihil ab natus fuga maxime veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quisquam voluptatibus recusandae similique repellat. Sit repellendus, delectus odio nemo dolores ipsam voluptas qui, nulla hic sunt nostrum totam provident! Nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate pariatur dolores eius.";
+  "Provident sequi tempore doloribus, sed voluptas dolorem veritatis magni, illum quidem fugit, officia illo in suscipit sint reiciendis sapiente cum possimus ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores fugit sapiente autem eius cum saepe aliquid perspiciatis, minus quam quidem non nostrum molestiae nihil ab natus fuga maxime veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quisquam voluptatibus recusandae similique repellat.";
 
 const LinkerKantKomponent = ({ linkerBeskrywing }) => {
   return (
     <LinkerPaneelHouer>
       <LinkerOpskrif>{linkerBeskrywing} </LinkerOpskrif>
       <PaneelBeskrywing1>{description}</PaneelBeskrywing1>
+      <Prent
+        src="https://www.nhm.ac.uk/content/dam/nhmwww/discover/bird-morphology/bird-morphology-full-width.jpg"
+        alt="Voeltjies"
+      />
     </LinkerPaneelHouer>
   );
 };
@@ -66,6 +76,10 @@ const MiddelKomponent = ({ middelBeskrywing }) => {
     <MiddelPaneelHouer>
       <MiddelOpskrif>{middelBeskrywing} </MiddelOpskrif>
       <PaneelBeskrywing2>{description}</PaneelBeskrywing2>
+      <Prent
+        src="https://cdn.sci.news/images/enlarge9/image_10688e-Rainbow-Lorikeet.jpg"
+        alt="Voeltjies"
+      />
     </MiddelPaneelHouer>
   );
 };
@@ -75,6 +89,10 @@ const RegterKantKomponent = ({ regterBeskrywing }) => {
     <RegterPaneelHouer>
       <RegterOpskrif>{regterBeskrywing} </RegterOpskrif>
       <PaneelBeskrywing2>{description}</PaneelBeskrywing2>
+      <Prent
+        src="https://img.theweek.in/content/dam/week/news/sci-tech/images/2022/4/5/macaw-bird.jpg"
+        alt="Voeltjies"
+      />
     </RegterPaneelHouer>
   );
 };
