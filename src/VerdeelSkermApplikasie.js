@@ -25,12 +25,18 @@ const RegterPaneelHouer = styled.div`
 const PaneelBeskrywing1 = styled.p`
   color: papayawhip;
   text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  word-spacing: 4px;
 `;
 
 const PaneelBeskrywing2 = styled.p`
   color: #000;
   font-weight: bold;
   text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  word-spacing: 4px;
 `;
 
 const LinkerOpskrif = styled.h1`
