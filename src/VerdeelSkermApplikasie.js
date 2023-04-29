@@ -2,17 +2,23 @@ import styled from "styled-components";
 import VerdeelSkerm from "./VerdeelSkerm";
 
 const LinkerPaneelHouer = styled.div`
+  font-family: "Cormorant Infant", serif;
   background-color: navy;
+  border: 1px solid #000;
   height: 100vh;
 `;
 
 const MiddelPaneelHouer = styled.div`
+  font-family: "Cormorant Infant", serif;
   background-color: lightgreen;
+  border: 1px solid #000;
   height: 100vh;
 `;
 
 const RegterPaneelHouer = styled.div`
+  font-family: "Cormorant Infant", serif;
   background-color: lightyellow;
+  border: 1px solid #000;
   height: 100vh;
 `;
 
@@ -23,6 +29,7 @@ const PaneelBeskrywing1 = styled.p`
 
 const PaneelBeskrywing2 = styled.p`
   color: #000;
+  font-weight: bold;
   text-align: center;
 `;
 
@@ -30,21 +37,23 @@ const LinkerOpskrif = styled.h1`
   color: #fff;
   font-weight: bold;
   text-align: center;
-  border: 3px solid #000;
+  border: 1px solid #000;
   padding: 1rem;
   margin-bottom: 1rem;
 `;
 
 const MiddelOpskrif = styled.h1`
   text-align: center;
-  border: 3px solid #000;
+  border: 1px solid #000;
   padding: 1rem;
   margin-bottom: 1rem;
 `;
 
 const RegterOpskrif = styled.h1`
+  color: rebeccapurple;
+  font-weight: bold;
   text-align: center;
-  border: 3px solid #000;
+  border: 1px solid #000;
   padding: 1rem;
   margin-bottom: 1rem;
 `;
