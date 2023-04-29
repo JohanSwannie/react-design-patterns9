@@ -30,7 +30,7 @@ const LinkerOpskrif = styled.h1`
   color: #fff;
   font-weight: bold;
   text-align: center;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   padding: 1rem;
   margin-bottom: 1rem;
 `;
